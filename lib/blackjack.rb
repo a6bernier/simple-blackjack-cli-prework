@@ -32,7 +32,7 @@ def hit?(number)
  prompt_user
  get_user_input 
  if get_user_input == "s"
-   puts no
+   puts card_total
   elsif get_user_input = "h"
    puts deal_card
    card_total += deal_card
