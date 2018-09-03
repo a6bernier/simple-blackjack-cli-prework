@@ -37,7 +37,7 @@ def hit?(number)
    puts deal_card
    card_total += deal_card
   else
-   puts "Please enter a valid command"
+   puts invalid_command
   end
    prompt_user
    return card_total
