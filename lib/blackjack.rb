@@ -31,9 +31,9 @@ end
 def hit?(number)
  prompt_user
  get_user_input = gets.chomp
- if get_user_input == "s"
+ if get_user_input = "s"
    puts no
-  elsif get_user_input == "h"
+  elsif get_user_input = "h"
    puts deal_card
    card_total += deal_card
   elsif get_user_input != "h" && "s"
