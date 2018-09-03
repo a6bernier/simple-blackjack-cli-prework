@@ -28,8 +28,18 @@ def initial_round
   return first_round
 end
 
-def hit?
-  # code hit? here
+def hit?(number)
+ prompt_user
+ get_user_input = gets.chomp
+ if get_user_input == "s"
+   puts no
+   elsif get_user_input == "h"
+   puts deal_card
+   card_total += deal_card
+   elsif get_user_input != "h" && "s"
+   puts "Please enter a valid command"
+   prompt_user
+   return card_total
 end
 
 def invalid_command
