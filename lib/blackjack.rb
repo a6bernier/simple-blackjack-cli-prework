@@ -47,7 +47,6 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 def runner
-  # code runner here	  welcome
   hand=initial_round
   until hand>21 do
     hand=hit?(hand)
