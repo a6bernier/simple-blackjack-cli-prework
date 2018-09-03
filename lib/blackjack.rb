@@ -33,11 +33,12 @@ def hit?(number)
  get_user_input = gets.chomp
  if get_user_input == "s"
    puts no
-   elsif get_user_input == "h"
+  elsif get_user_input == "h"
    puts deal_card
    card_total += deal_card
-   elsif get_user_input != "h" && "s"
+  elsif get_user_input != "h" && "s"
    puts "Please enter a valid command"
+  end
    prompt_user
    return card_total
 end
