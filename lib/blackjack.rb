@@ -36,7 +36,7 @@ def hit?(number)
   elsif get_user_input = "h"
    puts deal_card
    card_total += deal_card
-  elsif get_user_input != "h" && "s"
+  else
    puts "Please enter a valid command"
   end
    prompt_user
